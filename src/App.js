@@ -69,7 +69,7 @@ function App () {
   const [primerValor, setPrimerValor] = useState(0);
   const [segValor, setSegValor] = useState(0);
   const [resultado, setResultado] = useState(0);
-
+ // Se me olvido arreglar esta suma :c
   const suma = () => {
     setResultado(primerValor + segValor);
   }
